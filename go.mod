@@ -8,7 +8,7 @@ require (
 	github.com/glebarez/go-sqlite v1.22.0
 	github.com/go-chi/chi/v5 v5.2.1
 	github.com/go-chi/httprate v0.14.1
-	github.com/go-chi/jwtauth/v5 v5.3.1
+	github.com/go-chi/jwtauth/v5 v5.3.2
 	github.com/go-playground/validator/v10 v10.24.0
 	github.com/joho/godotenv v1.5.1
 	github.com/muesli/termenv v0.15.2
