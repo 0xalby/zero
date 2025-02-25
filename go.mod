@@ -12,7 +12,7 @@ require (
 	github.com/go-playground/validator/v10 v10.25.0
 	github.com/joho/godotenv v1.5.1
 	github.com/muesli/termenv v0.16.0
-	github.com/stripe/stripe-go/v81 v81.3.1
+	github.com/stripe/stripe-go/v81 v81.4.0
 	golang.org/x/crypto v0.34.0
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 )
