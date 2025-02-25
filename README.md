@@ -77,3 +77,31 @@ I probably won't be adding them, but who knows?
 
 ## Reasoning
 This is good a good code sample for people to review and help me improve!
+
+## Todo
+Handle everything except payments in a flexible way including
+* improve .env for clarity and for example remove DOMAIN
+* improve logging with charmbracelet/log with a middleware
+* audit
+* this only scales vertically warning
+* handle oath2
+* add otp
+## Superbased
+* super CLI will interact with the Superbased application
+* add storage support so you can "super add users {"email": "", "password": ""} with handlers just like PocketBase
+* use a logger middleware that
+* get the latest requests with "super requests"
+* send a request impersonating yourself with "super impersonate"
+* manage backups with "super backup list/add/remove"
+* migrations with "super migrate list/add/remove"
+* use something SQL/NoSQL based that can scale also horizontally
+* filter logs with "super logs LEVEL"
+
+"fucking dea btw"
+
+* go-superbased library
+* js-superbased library
+* superbased-starters
+this will be initializable with super
+
+> superbased asks for additional migrations to use at first launch so that the user can expand the database and access additional data from another backend which communicates with both the API and the database and use charm stuff to make it glamorous
